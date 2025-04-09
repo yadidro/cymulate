@@ -1,0 +1,11 @@
+@RoyPhishingProj_HostAddress = http://localhost:5252
+
+GET {{RoyPhishingProj_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{RoyPhishingProj_HostAddress}}/todos/1
+Accept: application/json
+
+###
